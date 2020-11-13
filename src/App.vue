@@ -1,8 +1,6 @@
 <template>
   <div id="app" class="relative min-h-screen">
-    <div id="nav">
       <nav-bar />
-    </div>
     <router-view />
   </div>
 </template>
@@ -17,5 +15,4 @@ export default {
   }
 };
 </script>
-<style>
 
